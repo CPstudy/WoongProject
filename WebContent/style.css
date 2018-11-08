@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html {
+	background:#eaeaea;
+}
+
+body {
+	margin:0;
+}
+
+table {
+	width:100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tr {
+	background-color:#50000000;
+}
+
+th {
+	padding: 12px 0;
+	color: #555e5e;
+	font-size:13px;
+	border-bottom: 1px solid #d5d8d8;
+}
+
+td {
+	padding: 12px 16px;
+	color: #555e5e;
+	font-size:13px;
+	border-bottom: 1px solid #d5d8d8;
+}
+
+.woong_box {
+	border: 1px solid #cdd2d2;
+    box-shadow: 0 1px #dcdfdf;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+
+
+.woong_body {
+	color: #fff;
+	background: linear-gradient(52deg, #5383e8, #3991ef 31%, #3892f0 32%, #3594f1 36%, #00b2ff);
+	min-width: 1080px;
+    min-height: 900px;
+    position: relative;
+    overflow: hidden;
+}
+
+.woong_header {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.woong_top {
+	background: #1ea1f7;
+	padding: 8px;
+}
+
+.woong_menu {
+	background: #1d2e51;
+	padding: 4px;
+}
+
+.woong_ul_menu {
+	max-width: 1300px;
+    margin: 0 auto;
+	color: #73a1cb;
+	list-style: none;
+	padding: 4px;
+}
+
+.woong_li_menu {
+    display:inline;
+    padding: 11px 8px 7px;
+}
+
+.content {
+	
+}
+
+.page {
+	width:80%;
+	margin:0px auto;
+	padding:20px;
+	background-color:transparent;
+}
+
+.paper {
+	width:70%;
+	margin:0px auto;
+	padding:20px;
+	background-color:#ffffff;
+	border:1px solid #dee3eb;
+}
+
+.title_main {
+	color:white;
+	font-size:3em;
+	font-family: 'Raleway', sans-serif;
+}
+
+.title_header {
+	color:white;
+	font-size:2em;
+	font-family: 'Raleway', sans-serif;
+}
+
+input[type=text] {
+	border: 1px solid #ccd1d1;
+    background: #ffffff;
+    color: #242929;
+    padding: 11px 14px 10px;
+	transition:background-color 100ms;
+}
+
+.input_enter {
+	border: 1px solid #ccd1d1;
+    background: #f2f2f2;
+    color: #242929;
+    padding: 11px 14px 10px;
+	transition:background-color 100ms;
+}
+
+.input_enter:hover {
+	background-color:#ccd1d1;
+	color:black;
+	cursor:pointer;
+}
+
+.input_write {
+	border: 1px solid #227a55;
+	border-radius: 5px;
+    background: #2ca170;
+    color: #f2f2f2;
+    padding: 11px 14px 10px;
+	transition:background-color 100ms;
+}
+
+.input_write:hover {
+	background: #227a55;
+	cursor: pointer;
+}
