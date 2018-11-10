@@ -5,7 +5,10 @@
 <head>
 <meta charset="EUC-KR">
 <link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="js/calendar.js" charset="EUC-KR"></script>
 <title>WoongProject</title>
+</head>
+<body>
 <div class="woong_top">
 	<div class="woong_header">
 		<font class="title_header">WoongProject</font>

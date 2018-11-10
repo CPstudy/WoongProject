@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <title>©У га╥на╖ф╝</title>
 </head>
-<body>
+<body onload="changeColor()" id="body">
 <div class="woong_body">
 	<div class="content" align="center">
 		<p class="title_main">WoongProject</p>

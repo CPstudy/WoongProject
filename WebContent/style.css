@@ -33,6 +33,20 @@ td {
 	border-bottom: 1px solid #d5d8d8;
 }
 
+.paper_th {
+	padding: 12px 0;
+	color: #555e5e;
+	font-size:13px;
+	border-bottom: 0px;
+}
+
+.paper_td {
+	padding: 12px 16px;
+	color: #555e5e;
+	font-size:13px;
+	border-bottom: 0px;
+}
+
 .woong_box {
 	border: 1px solid #cdd2d2;
     box-shadow: 0 1px #dcdfdf;
@@ -76,6 +90,21 @@ td {
 .woong_li_menu {
     display:inline;
     padding: 11px 8px 7px;
+}
+
+.woong_textarea {
+	border: 1px solid #ccd1d1;
+    background: #ffffff;
+    color: #242929;
+	transition:background-color 100ms;
+}
+
+.woong_date {
+	border: 1px solid #ccd1d1;
+    background: #ffffff;
+    padding: 8px;
+    color: #242929;
+	transition:background-color 100ms;
 }
 
 .content {
@@ -143,4 +172,19 @@ input[type=text] {
 .input_write:hover {
 	background: #227a55;
 	cursor: pointer;
+}
+
+.cal_table {
+	border: 0px;
+	padding: 0;
+}
+
+.cal_td {
+	border: 0px;
+	padding: 0px;
+}
+
+.cal_th {
+	border: 0px;
+	padding: 0px;
 }
