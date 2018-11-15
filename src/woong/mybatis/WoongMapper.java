@@ -36,6 +36,19 @@ public class WoongMapper {
 		}
 		return list;
 	}
+	
+	public static int writeWoong(WoongDTO dto) {
+		SqlSession session = sqlSession.openSession();
+		int res = 0;
+		try {
+			res = session.insert("writeWoong", dto);
+			session.commit();
+		} finally {
+			session.close();
+		}
+		
+		return res;
+	}
 }
 
 

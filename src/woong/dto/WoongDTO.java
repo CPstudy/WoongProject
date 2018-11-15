@@ -4,6 +4,7 @@ public class WoongDTO {
 	int no;
 	String title;
 	String applicant;
+	String passwd;
 	String birth;
 	String gender;
 	String email;
@@ -33,6 +34,12 @@ public class WoongDTO {
 	}
 	public void setApplicant(String applicant) {
 		this.applicant = applicant;
+	}
+	public String getPasswd() {
+		return passwd;
+	}
+	public void setPasswd(String passwd) {
+		this.passwd = passwd;
 	}
 	public String getBirth() {
 		return birth;

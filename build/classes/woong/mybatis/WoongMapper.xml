@@ -6,6 +6,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id="listWoong" resultType="woongDTO">
 		select * from woong order by no desc
 	</select>
+	
+	<insert id="writeWoong" parameterType="WoongDTO">
+		insert into woong values (woong_seq.nextval, #{title}, #{applicant}, #{birth}, #{gender}, #{email}, #{participant}, #{appointment}, #{startdate}, #{enddate}, #{motive}, #{benefit}, #{approval}, #{doing})
+	</insert>
 </mapper>
 
 
